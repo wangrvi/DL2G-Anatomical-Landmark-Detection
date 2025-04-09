@@ -3,8 +3,11 @@
 This repository provides an overview of the **DL2G** framework, a novel method for anatomical landmark detection in medical images, particularly 3D MRI, combining deep local features with global geometric constraints.
 
 **Paper:** DL2G: Anatomical Landmark Detection with Deep Local Features and Geometric Global Constraint
+
 **Authors:** Rui Wang, Wanli Yang, Kuntao Xiao, Yi Sun, Shurong Sheng, Zhao Lv, Jiahong Gao
+
 **Conference:** 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+
 **DOI:** 10.1109/BIBM62325.2024.10822870
 
 ![DL2G Framework](pic/DL2G_flowchart.png)  
@@ -99,7 +102,7 @@ We thank the researchers and institutions responsible for creating and sharing t
 ## Citation
 
 If you find this work useful, please cite the original paper:
-
+```
 @INPROCEEDINGS{10822870,
   author={Wang, Rui and Yang, Wanli and Xiao, Kuntao and Sun, Yi and Sheng, Shurong and Lv, Zhao and Gao, Jiahong},
   booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
@@ -110,7 +113,7 @@ If you find this work useful, please cite the original paper:
   pages={1695-1700},
   keywords={Location awareness;Three-dimensional displays;Protocols;Navigation;Memory management;Surgery;Feature extraction;Robustness;Optimization;Mutual information;Landmark detection;Deep feature descriptor;Geometric constraint;Contrastive learning},
   doi={10.1109/BIBM62325.2024.10822870}}
-
+```
 
 ## License
 
