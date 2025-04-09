@@ -1,0 +1,59 @@
+oasis:
+  train_images_pkl: "/path/to/oasis/train_images.pkl"
+  train_featurePoints_re: "/path/to/oasis/feature_points/*.pkl"
+  valid_images_pkl_list:
+  - "/path/to/oasis/valid_images_1.pkl"
+  - "/path/to/oasis/valid_images_2.pkl"
+  - "/path/to/oasis/valid_images_3.pkl"
+  valid_afids_pkl_list:
+  - "/path/to/oasis/valid_afids_1.pkl"
+  - "/path/to/oasis/valid_afids_2.pkl"
+  - "/path/to/oasis/valid_afids_3.pkl"
+  template_ind: 2
+  norm: 
+  - 15.43
+  - 36.69
+  fuse_public_index:
+  - 1
+  - 2
+  - 6
+  - 7
+  edgeDist: 40
+
+  template:
+    template_save_re: "/path/to/oasis/template/save/*.npy"
+    template_fids_re: "/path/to/oasis/template/fids/*.pkl"
+    template_standardize_re: "/path/to/oasis/template/standardize/*.npy"
+    template_afids_re: "/path/to/oasis/template/afids/*.pkl"
+
+hcp:
+  train_images_pkl: "/path/to/hcp/train_images.pkl"
+  train_featurePoints_re: "/path/to/hcp/feature_points/*.pkl"
+  valid_images_pkl_list:
+  - "/path/to/hcp/valid_images_1.pkl"
+  - "/path/to/hcp/valid_images_2.pkl"
+  - "/path/to/hcp/valid_images_3.pkl"
+  valid_afids_pkl_list:
+  - "/path/to/hcp/valid_afids_1.pkl"
+  - "/path/to/hcp/valid_afids_2.pkl"
+  - "/path/to/hcp/valid_afids_3.pkl"
+  template_ind: 0
+  norm: 
+  - 10.42
+  - 23.01
+  fuse_public_index:
+  - 0
+  - 1
+  - 2
+  - 5
+  - 6
+  - 7
+  edgeDist: 40
+  
+  template:
+    template_save_re: "/path/to/hcp/template/save/*.npy"
+    template_fids_re: "/path/to/hcp/template/fids/*.pkl"
+    template_standardize_re: "/path/to/hcp/template/standardize/*.npy"
+    template_afids_re: "/path/to/hcp/template/afids/*.pkl"  
+
+
