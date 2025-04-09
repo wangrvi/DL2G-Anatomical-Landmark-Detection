@@ -8,7 +8,7 @@ This repository provides an overview of the **DL2G** framework, a novel method f
 
 **Conference:** 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
 
-**DOI:** [10.1109/BIBM62325.2024.10822870](10.1109/BIBM62325.2024.10822870)
+**DOI:** ([10.1109/BIBM62325.2024.10822870](https://ieeexplore.ieee.org/document/10822870))
 
 ![DL2G Framework](pic/DL2G_flowchart.png)  
 *Figure 1: DL2G framework workflow. (a) Feature point detection and filtering. (b) Deep feature embedding and candidate selection. (c) Geometric consistency optimization. (d) Iterative refinement.*
